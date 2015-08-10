@@ -7,3 +7,15 @@
 	font-family: DINNextLTPro-UltraLight;
 	src: url(../fonts/DINNextLTPro-UltraLight.otf);
 }
+
+@media (max-width: 767px) {
+  .tablet-up {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .tablet-up {
+    display: block !important;
+  }
+}

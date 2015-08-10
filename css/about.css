@@ -1,0 +1,47 @@
+@import url("include.css"); 
+
+.mission-statement {
+  font-family: DINNextLTPro-UltraLightIt;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 15px;
+}
+
+.info-point {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.info-point-img {
+  width: 40px;
+}
+
+.info-point-title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .mission-statement {
+    width: 580px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mission-statement {
+    width: 914px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  
+  .info-point-title {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
