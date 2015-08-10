@@ -75,7 +75,7 @@ screen-lg-min-1200px
 @media (min-width: 992px) {
   .hero {
     height: 664px;
-    padding-top: 190px;  
+    padding-top: 170px;  
   }
   
   .hero-supporting-text {
