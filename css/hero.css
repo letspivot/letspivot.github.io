@@ -27,9 +27,8 @@ screen-lg-min-1200px
   font-size: 15px;
 }
 
-.cta-button {
+.cta-button-hero {
   border: 0;
-  background: #03b9c8;
   width: 292px;
   margin: 0 auto;
   height: 55px;
@@ -39,10 +38,10 @@ screen-lg-min-1200px
   background: rgba(255, 255, 255, 0.8);
   margin-top: 10px;
   margin-bottom: 55px;
-  width: 295px;
+  display: block;
 }
 
-.cta-button:hover {
+.cta-button-hero:hover {
   background: rgba(0,0,0,0.8);
   color: #FFF;
 }
@@ -64,7 +63,7 @@ screen-lg-min-1200px
       margin-bottom: 25px;
   }
   
-  .cta-button {
+  .cta-button-hero {
       width: 292px;
       margin: 0 auto;
       height: 55px;
@@ -74,8 +73,8 @@ screen-lg-min-1200px
 
 @media (min-width: 992px) {
   .hero {
-    height: 664px;
-    padding-top: 170px;  
+    height: 610px;
+    padding-top: 130px;  
   }
   
   .hero-supporting-text {

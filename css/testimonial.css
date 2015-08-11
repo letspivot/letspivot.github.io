@@ -1,0 +1,37 @@
+.testimonial {
+  height: 383px;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8e8e8+0,ffffff+50,ffffff+51,b8b8b8+100 */
+  background: #e8e8e8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e8e8e8 0%, #ffffff 50%, #ffffff 51%, #b8b8b8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(50%,#ffffff), color-stop(51%,#ffffff), color-stop(100%,#b8b8b8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #e8e8e8 0%,#ffffff 50%,#ffffff 51%,#b8b8b8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #e8e8e8 0%,#ffffff 50%,#ffffff 51%,#b8b8b8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #e8e8e8 0%,#ffffff 50%,#ffffff 51%,#b8b8b8 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #e8e8e8 0%,#ffffff 50%,#ffffff 51%,#b8b8b8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#b8b8b8',GradientType=0 ); /* IE6-9 */
+}
+
+.testimonial-quote {
+  font-size: 20px;
+  color: black;
+  width: 280px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.testimonial-author {
+  font-size: 16px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.mobile-devin {
+  width:100%;
+  height:393px;
+  background-position: right 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/mobile_devin.png);
+}

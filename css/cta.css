@@ -1,0 +1,37 @@
+@import url("include.css");
+
+.cta-callout { 
+  font-family: DINNextLTPro-UltraLightIt;
+  font-size: 24px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+}
+
+.cta-button-bottom {
+  border: 0;
+  background: #000;
+  width: 292px;
+  margin: 0 auto;
+  height: 55px;
+  line-height: 37px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 55px;
+  display: block;
+}
+
+.cta-button-bottom:hover {
+  background: #03b9c8;
+  color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .cta-callout {
+    width: 500px;
+    font-size: 30px;
+  }
+}
