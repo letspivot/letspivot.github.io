@@ -1,0 +1,32 @@
+
+.modal-text {
+  font-size: 16px;
+}
+
+.contact-exit {
+  font-size:34px;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.message-box {
+  width: 300px;
+}
+
+.contact-header {
+
+}
+
+.contact-close {
+  color: white;
+}
+
+.contact-footer {
+  background-color: black;
+}
+
+.contact-button {
+  margin: 0 auto;
+}

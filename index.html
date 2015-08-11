@@ -7,6 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pivot Creative Communications</title>
 
+    <link rel="icon" type="image/png" href="img/pivot_favicon.png">
+    
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -25,6 +27,7 @@
     <link href="css/testimonial.css" rel="stylesheet">
     <link href="css/cta.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/modal.css" rel="stylesheet">
   </head>
   <body>    
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -158,16 +161,39 @@
     <div class="modal fade" id="ctaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <div class="modal-header contact-header">
+            <button type="button" class="close contact-exit" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title contact-title" id="myModalLabel">Get a Free Assessment</h4>
           </div>
           <div class="modal-body">
-            Contact
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <form class="form-horizontal" id="contact_form">
+              <fieldset>
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="name">Your Name</label>  
+                  <div class="col-md-7">
+                    <input id="name" name="name" type="text" placeholder="Enter your full name here" class="form-control input-md" required="" autofocus>
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="email">Your Email</label>  
+                  <div class="col-md-7">
+                    <input id="email" name="email" type="text" placeholder="Enter your email address here" class="form-control input-md" required="">
+                  </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label" for="msg">Your Message</label>
+                  <div class="col-md-7">                     
+                    <textarea class="form-control" id="msg" name="msg" cols="6" rows="6"></textarea>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+             <center><button type="button" class="btn btn-primary contact-button" id="reach-out">Reach Out!</button></center>
           </div>
         </div>
       </div>
@@ -178,5 +204,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/gradient.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
