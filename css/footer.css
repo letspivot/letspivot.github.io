@@ -1,0 +1,16 @@
+.footer {
+  background-color: #00C6BF;
+  height: 62px;
+}
+
+@media (min-width:768px) {
+  .footer {
+    height: 82px;
+  }
+}
+
+@media (min-width:992px) {
+  .footer {
+    height: 127px;
+  }
+}
