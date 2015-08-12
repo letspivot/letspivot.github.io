@@ -1,15 +1,23 @@
 @media (min-width: 768px) {
   .client-carousel {
     height: 78px;
+    padding-top: 18px;
   }
   
   #carousel-example-generic {
     margin-bottom: 0;
   }
   
-  .client-carousel. carousel-control {
-    background-color: #FFF;
-    opacity: 1;
+  .client-carousel .carousel-control.left {
+    padding-top:14px;
+    background-image: none;
+    color: black;
+  }
+  
+  .client-carousel .carousel-control.right {
+    padding-top:14px;
+    background-image: none;
+    color: black;
   }
   
   .client-carousel. carousel-control > i {
@@ -22,12 +30,14 @@
   }
   
   .carousel-inner {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   
   .logos-container ul {
-    margin: 0;
+    margin: 0 auto;
+    width: 80%;
+    
   }
   
   .logos-container li {
