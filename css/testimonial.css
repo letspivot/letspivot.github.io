@@ -27,7 +27,7 @@
   margin-top: 20px;
 }
 
-.mobile-devin {
+.devin {
   width:100%;
   height:393px;
   background-position: right 0;
@@ -44,6 +44,11 @@
     background-image: url(../img/full_courtney.png);
   }
   
+  .devin {
+    background-image: url(../img/full_devin.png);
+    background-position: left 0;
+  }
+  
   .testimonial-quote {
     font-size: 24px;
     color: black;
@@ -52,21 +57,32 @@
     padding-top: 120px;
   }
 
+  .testimonial-quote-devin {
+    position: absolute;
+    right: 50px;
+  }
+  
+  .testimonial-author-devin {
+    position: relative;
+    right: 50px;
+  }
+    
   .testimonial-author {
     font-size: 16px;
     margin-top: 10px;
     margin-left: 50px;
     text-align: left;
   }
+  
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1170px) {
   .testimonial-quote {
     font-size: 26px;
-    margin-left: 200px;
+    margin-left: 160px;
   }
   
   .testimonial-author {
-    margin-left: 200px;
+    margin-left: 160px;
   }
 }

@@ -1,37 +1,39 @@
 @media (min-width: 768px) {
+  .client-carousel {
+    height: 78px;
+  }
   
   #carousel-example-generic {
     margin-bottom: 0;
   }
   
-    .carousel-control {
-      background-color: #FFF;
-      opacity: 1;
-
-    }
+  .client-carousel. carousel-control {
+    background-color: #FFF;
+    opacity: 1;
+  }
   
-      .carousel-control  > i {
-        font-size: 30px;
-        color: #000;
-      }
-      .carousel-control span {
-        font-size: 0;
-      }
+  .client-carousel. carousel-control > i {
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .client-carousel. carousel-control span {
+    font-size: 0;
+  }
   
   .carousel-inner {
     width: 80%;
     margin: 0 auto;
   }
   
-   .logos-container ul {
-      margin: 0;
-   }
+  .logos-container ul {
+    margin: 0;
+  }
   
   .logos-container li {
     float: left;
     list-style-type: none;
     width: 20%;
-
   }
 
   .logos-container img {
