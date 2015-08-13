@@ -3,3 +3,8 @@
 body {
   font-family: DINNextLTPro-UltraLight;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

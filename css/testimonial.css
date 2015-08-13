@@ -13,18 +13,14 @@
 }
 
 .testimonial-quote {
-  font-size: 20px;
+  font-size: 22px;
   color: black;
-  width: 280px;
-  margin: auto;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 .testimonial-author {
   font-size: 16px;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
+  width: 200px;
 }
 
 .devin {
@@ -55,23 +51,15 @@
     width: 500px;
     margin-left: 50px;
     padding-top: 120px;
-  }
 
-  .testimonial-quote-devin {
-    position: absolute;
-    right: 50px;
   }
   
-  .testimonial-author-devin {
-    position: relative;
-    right: 50px;
-  }
-    
   .testimonial-author {
     font-size: 16px;
     margin-top: 10px;
     margin-left: 50px;
     text-align: left;
+    width: auto;
   }
   
 }
