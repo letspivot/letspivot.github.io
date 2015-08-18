@@ -31,32 +31,55 @@
   background-image: url(../img/mobile_devin.png);
 }
 
+.case-study-button {
+  border: 0;
+  background: rgba(0,0,0,0.8);
+  width: 155px;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 37px;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  display: block;
+}
+
+.case-study-button:hover {
+  background: #03b9c8;
+  color: #FFF;
+}
+
+
 @media (min-width: 768px) {
+  .testimonial {
+    height: 250px; 
+  }
+  
   .courtney {
     width:100%;
-    height:393px;
+    height:250px;
     background-position: right 0;
     background-repeat: no-repeat;
-    background-image: url(../img/full_courtney.png);
+    background-image: url(../img/tablet_courtney.png);
   }
   
   .devin {
-    background-image: url(../img/full_devin.png);
+    background-image: url(../img/tablet_devin.png);
     background-position: left 0;
+    height:250px;
   }
   
   .testimonial-quote {
     font-size: 24px;
     color: black;
-    width: 500px;
+    width: 600px;
     margin-left: 50px;
-    padding-top: 120px;
-
+    padding-top: 50px;
   }
   
   .testimonial-author {
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 50px;
     text-align: left;
     width: auto;
@@ -65,12 +88,28 @@
 }
 
 @media (min-width: 1170px) {
+  .courtney {
+    height:393px;  
+    background-image: url(../img/full_courtney.png);
+  }
+  
+  .devin {
+    height:393px; 
+    background-image: url(../img/full_devin.png);
+  }
+  
+  .testimonial {
+    height: 383px;
+  }
+  
   .testimonial-quote {
-    font-size: 26px;
-    margin-left: 160px;
+    font-size: 36px;
+    margin-left: 60px;
+    padding-top: 70px;
   }
   
   .testimonial-author {
-    margin-left: 160px;
+    margin-left: 60px;
+    font-size: 20px;
   }
 }
