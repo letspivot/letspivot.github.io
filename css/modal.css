@@ -1,10 +1,22 @@
+@import url("include.css"); 
+
+.modal-content {
+  border-radius: 0;
+  background-color:rgba(255,255,255,0.92);
+  font-size: 16px;
+}
+
+.form-control {
+  border-radius: 0;
+}
 
 .modal-text {
-  font-size: 16px;
+
 }
 
 .contact-exit {
   font-size:34px;
+
 }
 
 .contact-title {

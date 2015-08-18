@@ -24,7 +24,7 @@ jQuery(function($)
                     'text': msg,
                     'to': [
                     {
-                        'email': 'alavell@gmail.com',
+                        'email': 'liz@letspivot.com',
                         'name': 'Allan Lavell',
                         'type': 'to'
                     }]
